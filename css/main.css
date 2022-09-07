@@ -1,0 +1,662 @@
+header {
+    background-color: #080808;
+    background-size: cover;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    top: 0;
+    height: auto;
+    width: 300px;
+    border-style: groove;
+    font-style: italic;
+    font-size: 25px;
+    position: relative;
+}
+
+.header-text {
+    color: fff;
+    text-align: left;
+}
+
+.header-img {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/DSC_8353.jpg");
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 75px;
+    width: 50%;
+    height: 69%;
+    background: linear-gradient();
+    background-position: right 53.5% top 7.9%;
+}
+
+@keyframes imageanimation {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    20% {
+        left: 100px;
+        top: 0px;
+    }
+    40% {
+        left: 100px;
+        top: 20px;
+    }
+    60% {
+        left: -200px;
+        top: 20px;
+    }
+    80% {
+        left: -200px;
+        top: 0px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+nav li {
+    display: inline;
+    margin: 5px;
+}
+
+nav ul {
+    margin: 0;
+    background-color: #eff542;
+    list-style-type: none;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    transform: -50%, -50%;
+    float: none;
+    overflow: hidden;
+}
+
+nav a {
+    color: #323131;
+    text-decoration: none;
+}
+
+.contactme-ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav a:hover {
+    color: red;
+}
+
+nav {
+    display: inline;
+    position: relative;
+    width: 100%;
+}
+
+figure {
+    position: center;
+    border-radius: 50%;
+}
+
+body,
+html {
+    position: relative;
+    height: 100%;
+    margin: 0px;
+    background-color: #060506;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-articles {
+    background-color: yellow;
+    color: #000000;
+    text-emphasis-color: red;
+    border-radius: 50%;
+    border: #ffffff;
+    padding-bottom: 40px;
+    padding-left: 75px;
+    padding-right: 75px;
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.resume-articles {
+    background-color: yellow;
+    color: #000000;
+    border-radius: 15%;
+    padding-bottom: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactme-articles {
+    background-color: yellow;
+    color: #000000;
+    border-radius: 5%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: red;
+}
+
+#contactme-details {
+    text-align: center;
+}
+
+.resume-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.resume-h3 {
+    font-size: 21px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.para-h3 {
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+strong {
+    text-align: center;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    line-height: 20px;
+    background-color: #000000;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    clear: both;
+    color: yellow;
+    clear: both;
+    text-align: center;
+    padding: 7px;
+    border-style: groove;
+    width: 100%;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    background-size: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contactme-form {
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: Garamond;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=submit] {
+    background-color: #000000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-family: Garamond;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+input[type=submit]:hover {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Garamond;
+    border-color: 5px #000000;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.parallax {
+    background-image: url(/images/DSC_8353.jpg);
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.vacations-articles {
+    background-color: yellow;
+    color: #000000;
+    border-radius: 5%;
+    position: absolute;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 100%;
+}
+
+.parallax1 {
+    background-image: url(/images/DSC_8353.jpg);
+    height: 450px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.vacations-articles1 {
+    background-color: yellow;
+    color: #000000;
+    border-radius: 5%;
+    position: absolute;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+    width: 100%;
+}
+
+.parallax2 {
+    background-image: url(/images/20190210_105933.jpg);
+    height: 650px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.vacations-articles2 {
+    background-color: yellow;
+    color: #000000;
+    border-radius: 5%;
+    position: absolute;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 450px;
+    width: 100%;
+}
+
+.parallax3 {
+    background-image: url(/Videos/20170720_OldFaithful.mp4);
+    height: 650px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vacations-articles3 {
+    background-color: yellow;
+    color: #000000;
+    border-radius: 5%;
+    position: absolute;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 450px;
+    width: 100%;
+}
+
+.parallax4 {
+    background-image: url(/images/20190211_122823.jpg);
+    height: 650px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vacations-articles4 {
+    background-color: yellow;
+    color: #000000;
+    border-radius: 5%;
+    position: absolute;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 450px;
+    width: 100%;
+}
+
+.parallax5 {
+    background-image: url(/images/20190219_102237.jpg);
+    height: 650px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.vacations-articles5 {
+    background-color: yellow;
+    color: #000000;
+    border-radius: 5%;
+    position: absolute;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 450px;
+    width: 100%;
+}
+
+.parallax6 {
+    background-image: url(/images/PANO_20170112_125610.jpg);
+    height: 650px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.vacations-articles6 {
+    background-color: yellow;
+    color: #000000;
+    border-radius: 5%;
+    position: absolute;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 450px;
+    width: 100%;
+}
+
+.parallax7 {
+    background-image: url(/Videos/GardenButterflies.mp4);
+    height: 650px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vacations-articles7 {
+    background-color: yellow;
+    color: #000000;
+    border-radius: 5%;
+    position: absolute;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 450px;
+    width: 100%;
+}
+
+.parallax8 {
+    background-image: url(/images/DSC_8357.jpg);
+    height: 650px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.vacations-articles8 {
+    background-color: yellow;
+    color: #000000;
+    border-radius: 5%;
+    position: absolute;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 450px;
+    width: 100%;
+}
+
+.parallax9 {
+    background-image: url(/images/20190219_102405.jpg);
+    height: 650px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vacations-articles9 {
+    background-color: yellow;
+    color: #000000;
+    border-radius: 5%;
+    position: absolute;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 450px;
+    width: 100%;
+}
+
+.parallax10 {
+    background-image: url(/Videos/AquariumStingraySmiling.mp4);
+    height: 650px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vacations-articles10 {
+    background-color: yellow;
+    color: #000000;
+    border-radius: 5%;
+    position: absolute;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 450px;
+    width: 100%;
+}
+
+.parallax11 {
+    background-image: url(/images/PANO_20160714_164314.jpg);
+    height: 650px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vacations-articles11 {
+    background-color: yellow;
+    color: #000000;
+    border-radius: 5%;
+    position: absolute;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 450px;
+    width: 100%;
+}
+
+.parallax12 {
+    background-image: url(/images/20190214_143553.jpg);
+    height: 650px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 350px, 200px;
+}
+
+.vacations-articles12 {
+    background-color: yellow;
+    color: #000000;
+    border-radius: 5%;
+    position: absolute;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 450px;
+    width: 100%;
+}
+
+section {
+    position: relative;
+    height: 100vh;
+    top: 200px;
+}
+
+.last-section {
+    position: relative;
+    top: 125px;
+    bottom: 0px;
+}
+
+h1 {
+    color: #eff542;
+    font-family: Garamond;
+    text-decoration-color: #eff542;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 30px;
+    padding: 0%;
+}
+
+h2 {
+    color: #eff542;
+    font-family: Garamond;
+    font-size: 25px;
+    text-align: center
+}
+
+h3 {
+    color: #000000;
+    text-decoration: underline;
+}
+
+p {
+    color: #000000;
+    font-family: Garamond;
+    text-align: center;
+    padding: 0%;
+}
+
+body {
+    font-family: Garamond;
+}
+
+#main-image {
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin: auto;
+    width: 10%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure {
+    margin: auto;
+    text-align: center;
+}
+
+table,
+th,
+td {
+    border: 1px groove;
+    text-align: center;
+    width: auto;
+}
+
+th {
+    text-align: center;
+}
+
+#left {
+    text-align: left;
+}

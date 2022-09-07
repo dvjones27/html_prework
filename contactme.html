@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<header>
+    <title>"DJones Portfolio"</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel=" icon " type="image/x-icon " href="images/favicon.ico ">
+</header>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html ">Home</a></li>
+            <li><a href="vacations.html ">Vacations</a></li>
+            <li><a href="resume.html ">Resume</a></li>
+            <li><a href="contactme.html ">Contact Me</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="header-img">
+        <div class="header-text">
+            <h1>Hello There! <br>Welcome to Danunetta's Portfolio! <br> Contact Me Page</h1>
+            <h2>This is how you contact me.</h2>
+        </div>
+    </div>
+    <div>
+        <article class="contactme-articles" id="contactme-form">
+            <form action="/PHP/main.php" method="POST">
+
+                <label><span class=" error ">* required field</span></label><br>
+                <label for="fname ">First name:</label><br>
+                <input type="text " id="fname " name="fname " placeholder="First Name "><span class="error ">* <?php echo $nameErr;?></span><br>
+                <label for="lname ">Last name:</label><br>
+                <input type="text " id="lname " name="lname " placeholder="Last Name "><span class="error ">* <?php echo $nameErr;?></span><br>
+                <label for="email ">Email:</label><br>
+                <input type="text " id="email " name="email " placeholder="Email "><span class="error ">* <?php echo $emailErr;?></span><br><br>
+                <label for="subject ">Comment:</label><br><textarea id="contactme-submit " name="comment " placeholder="Write your comments here. "></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </article>
+    </div>
+    <div>
+        <article class="contactme-articles " id="contactme-details ">
+            <ul class="contactme-ul ">
+                <p>Here is my contact info:</p>
+                <li>Contact: <a href="tel: +12055789999 ">(205)578-9999</a></li>
+                <li><a href="https://www.linkedin.com/ ">LinkedIn</a></li>
+                <li><a href="https://github.com/ ">GitHub</a></li>
+                <li><a href="https://www.codewars.com/ ">CodeWars</a></li>
+            </ul>
+        </article>
+    </div>
+
+    <footer>
+        <hr>
+        <div id="footer ">
+            Site Created by DJones<br/> Copyright © 09-2022<br/>
+        </div>
+    </footer>
+</body>
+
+</div>
+
+</html>

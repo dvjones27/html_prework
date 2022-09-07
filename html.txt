@@ -1,0 +1,22 @@
+Once you have completed the Pre-Work​ HTML and Pre-Work​ CSS​ tasks, 
+    create a website using text, 
+    lists, 
+    include at least two links, 
+    two different images and 
+    a form. 
+
+Use as many different CSS styles to help design your website. 
+
+We would like you to create a website that tells us about you. 
+
+You can include any text, or images on your website. 
+
+We would like you to talk about yourself, 
+    your background, 
+    hobbies and 
+    why you want to become a web developer. 
+
+Make it as elaborate as possible.  
+This can NOT be a copy of the website we built in the code along.  
+Please add your own flair and make a site the represents all that is you.
+
